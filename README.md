@@ -23,9 +23,9 @@
 3. **Start Post Consumer Server**
    Run the following command inside the root of post-consumer:
    ```bash
-   npm run dev or bun run dev(if you have bun)
+   npm run dev
 
 4. **Start Post Producer Server**
    Run the following command inside the root of post-producer:
    ```bash
-   npm run dev or bun run dev(if you have bun)        
+   npm run dev        
