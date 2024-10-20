@@ -5,7 +5,7 @@ export const init = async () => {
     await kafkaConfig.connect();
     await kafkaConfig.createTopic("post");
   } catch (error) {
-    process.exit(1);
     console.log("Error initializing services", error);
+    process.exit(1);
   }
 };
